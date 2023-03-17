@@ -11,12 +11,12 @@ class DemoController extends Controller
      */
     public function index()
     {
-        //
+        return view('about');
     }
 
     public function contactMethod()
     {
-
+        return view('contact');
     }
 
     /**
